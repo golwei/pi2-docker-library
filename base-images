@@ -1,1 +1,3 @@
 FROM resin/raspberrypi2-buildpack-deps:jessie
+FROM armhfbuild/buildpack-deps:jessie-scm
+FROM resin/armv7hf-debian:jessie
